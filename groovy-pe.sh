@@ -62,8 +62,3 @@ System.properties.each { k,v->
     println "$k = $v"
 }
 EOF
-
-
-# Loading environment variables
-cd ${env_dir}
-source ./env
